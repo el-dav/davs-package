@@ -1,0 +1,36 @@
+{
+  "context-menu": {
+    ".tree-view .header": [
+      {
+        "label": "Create Component",
+        "command": "davs-package:create"
+      },
+      {
+        "type": "separator"
+      }
+    ],
+    "atom-workspace": [
+    {
+      "label": "Insert Component",
+      "command": "davs-package:insert"
+    }
+  ]
+
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Dav's Package",
+          "submenu": [
+            {
+              "label": "Create",
+              "command": "davs-package:create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "extends" : "eslint-config-airbnb",
+    "plugins" : [
+        "react",
+        "import"
+    ],
+    "parserOptions": {
+        "ecmaVersion" : 2015
+    },
+    "rules": {
+        "react/jsx-filename-extension": [1,{ "extensions" : [".js" , ".jsx"]}],
+        "linebreak-style" : 0,
+        "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never",
+    }]
+    },
+    "env": {
+        "browser" : true,
+        "jest": true,
+    },
+    "globals": {
+        "atom" : true,
+    }
+}

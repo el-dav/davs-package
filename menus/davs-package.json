@@ -27,6 +27,10 @@
             {
               "label": "Create",
               "command": "davs-package:create"
+            },
+            {
+              "label": "Insert",
+              "command": "davs-package:insert"
             }
           ]
         }

@@ -5,8 +5,10 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "davs-package:create",
-    "atom-workspace": "davs-package:insert"
+    "atom-workspace": [
+      "davs-package:create",
+      "davs-package:insert"
+    ]
   },
   "repository": "https://github.com/atom/davs-package",
   "license": "MIT",
